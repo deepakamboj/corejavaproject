@@ -1,17 +1,17 @@
 package com.dk.interfaces;
 
-public class Test {
+public class Test implements Left,Right{
 
 	public static void main(String[] args) {
-	System.out.println("Parent");
+		System.out.println(Right.x);
 
 	}
-}
 
-class A extends Test {
-
-	public static void main(String[] args) {
-
-		System.out.println("Child");
+	@Override
+	public void m1() {
+		// TODO Auto-generated method stub
+		
 	}
+
+
 }
